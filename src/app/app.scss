@@ -24,10 +24,11 @@ $default-bgColor :  #4274BD;
   text-align: center;
 }
 .bar-button-default-md{
-  position: absolute;
   color : #fff;
-  z-index: 1;
 }
 .button-default{
   background-color: $default-bgColor;
+}
+.right-part{
+  opacity: 0;
 }

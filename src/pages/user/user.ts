@@ -7,10 +7,10 @@ import { AboutPage } from '../about/about'
   templateUrl: 'user.html'
 })
 export class UserPage {
-  item;
+  name;
 
   constructor(params: NavParams ,public navCtrl: NavController) {
-    this.item = params.data.item;
+    this.name = params.data.user;
   }
 
   goBack() {

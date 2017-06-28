@@ -15,7 +15,6 @@ export class HomePage {
   isLogin = false;
   constructor(public navCtrl: NavController , homeService: HomeService) {
     this.items = homeService.getHomeData();
-
   }
 
   ionViewDidEnter() {
@@ -35,6 +34,6 @@ export class HomePage {
   }
 
   goToUser(){
-    this.navCtrl.push(UserPage);
+    this.navCtrl.push(UserPage , {user: window.localStorage['user']});
   }
 }
