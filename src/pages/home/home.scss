@@ -1,3 +1,47 @@
 page-home {
+  .bar-buttons-md{
+    position: absolute;
+    background: #E2E2E2;
+    color: #666;
+    padding: 0 .5em;
+    border-radius: 10%;
+  }
 
+  .user-pic{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    position: absolute;
+    left: 5%;
+    overflow: hidden;
+    z-index: 10;
+  }
+  .user-pic img{
+    width: 100%;
+  }
+
+  ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+  .card-title {
+    position: absolute;
+    bottom: 0;
+    font-size: 1.2em;
+    line-height: 2.5em;
+    padding: 0 .5em;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    background-color:rgba(0,0,0,0.2);
+  }
+
+  .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    color: #fff;
+  }
 }

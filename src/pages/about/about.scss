@@ -1,0 +1,51 @@
+.about{
+  background: #F2F2F2;
+  background-size: cover;
+  text-align: center;
+  /*关于我们*/
+  .about-main {
+    height: 70%;
+    position: relative;
+  }
+  .app-logo {
+    padding-top: 30%;
+  }
+  .app-logo img {
+    width: 25%;
+    border-radius: 20%;
+    overflow: hidden;
+    -webkit-box-shadow:0 0 10px #CCC;
+    -moz-box-shadow:0 0 10px #CCC;
+    box-shadow:0 0 10px #CCC;
+  }
+  .app-name{
+    padding-top: 5%;
+    font-size: 14px;
+  }
+  .app-ver {
+    color: #ccc;
+    font-size: 12px;
+    padding-top: 5%;
+  }
+  .app-intro {
+    position: absolute;
+    bottom: 0;
+  }
+  .about-footer {
+    height: 20%;
+  }
+  .rule {
+    font-size: 18px;
+    color: #8C9091;
+    font-weight: 100;
+    padding: 7% 0;
+  }
+  .rule span {
+    padding: 0 10px;
+  }
+  .foot {
+    font-size: 16px;
+    color: #CCCECF;
+    line-height: 1.5;
+  }
+}

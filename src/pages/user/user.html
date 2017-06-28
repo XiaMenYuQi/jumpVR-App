@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      个人中心
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="user">
+  <ion-list>
+    <ion-item>
+      <h2>用户</h2>
+      <p item-end>
+        123
+      </p>
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-item>
+      <h2>头像</h2>
+      <ion-avatar item-end>
+        <img src="../../assets/icon/icon-app.png">
+      </ion-avatar>
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <button ion-item (click)="goToCollect(item)">
+      我的收藏
+    </button>
+  </ion-list>
+  <ion-list>
+    <button ion-item (click)="goToAbout(item)">
+      关于
+    </button>
+  </ion-list>
+
+  <button ion-button full (click)='LogOut()'>退出登陆</button>
+</ion-content>

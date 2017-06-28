@@ -1,0 +1,16 @@
+.collect{
+  ion-col{
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    padding: 0 10px;
+    margin: 10px 0;
+  }
+  .card-title{
+    position: absolute;
+    top: 39%;
+    text-align: center;
+    width: 95%;
+    color: #fff;
+  }
+}

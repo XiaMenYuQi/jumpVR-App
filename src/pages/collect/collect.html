@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      我的收藏
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="collect">
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6 *ngFor="let item of items" (click)="goToDetailPage(item)" class="collect-box">
+        <img [src]="item.cover"/>
+        <div class="card-title">{{ item.title }}</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

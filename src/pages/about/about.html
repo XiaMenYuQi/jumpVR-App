@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      关于我们
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="about" [style.background-color]="items.bgColor">
+  <div class="about-main">
+    <div class="app-logo">
+      <img [src]="items.logo"/>
+    </div>
+    <div class="app-name">{{items.name}}</div>
+    <div class="app-ver">{{items.version}}&nbsp;版本</div>
+  </div>
+  <footer class="about-footer">
+    <div class="rule">
+      <span>规则中心</span><span>|</span><span>免责声明</span>
+    </div>
+    <div class="foot">
+      <span class="company">{{items.company}}</span><br/>
+      <span class="company-en">{{items.companyEn}}</span>
+    </div>
+  </footer>
+</ion-content>
